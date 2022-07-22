@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"looklook/common/globalkey"
-	"looklook/common/xerr"
+	"github.com/pursonchen/mipool-server-v2/common/globalkey"
+	"github.com/pursonchen/mipool-server-v2/common/xerr"
 
 	"github.com/zeromicro/go-zero/core/stores/cache"
 	"github.com/zeromicro/go-zero/core/stores/sqlx"

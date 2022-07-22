@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	{{.importPackages}}
-    "looklook/common/middleware"
+    "github.com/pursonchen/mipool-server-v2/common/middleware"
 )
 
 var configFile = flag.String("f", "etc/{{.serviceName}}.yaml", "the config file")
