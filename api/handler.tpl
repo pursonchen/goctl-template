@@ -5,7 +5,7 @@ import (
 
 	"github.com/pursonchen/mipool-server-v2/common/result"
 
-	{{if .After1_1_10}}"github.com/zeromicro/go-zero/rest/httpx"{{end}}
+	"github.com/zeromicro/go-zero/rest/httpx"
 	{{.ImportPackages}}
 )
 
