@@ -8,6 +8,7 @@ type {{.logic}} struct {
 	logx.Logger
 	ctx    context.Context
 	svcCtx *svc.ServiceContext
+	r *http.Request
 }
 
 func New{{.logic}}(ctx context.Context, svcCtx *svc.ServiceContext, r *http.Request) *{{.logic}} {
